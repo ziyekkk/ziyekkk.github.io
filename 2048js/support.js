@@ -49,7 +49,7 @@ function canMoveUp(board){
 	return false;
 }
 function canMoveDown(board){
-	for(var j=0;j<4;j++){
+	for(var j=3;j>=0;j--){
 		for(var i=2;i>=0;i--){
 			if(board[i][j]!=0){
 				if(board[i+1][j]==0||board[i+1][j]==board[i][j])

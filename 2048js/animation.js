@@ -5,3 +5,6 @@ function showMoveAnimation(fromx,fromy,tox,toy){
 		left:getPosLeft(tox,toy)
 	},200);
 }
+function updateScore(score){
+	$("#score").text(score);
+}

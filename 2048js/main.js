@@ -11,6 +11,7 @@ function newgame(){
 
 }
 var board=new Array();
+var score=0;
 function init(){
 	//i表示4x4的格子中的行
 	for(var i=0;i<4;i++)
@@ -26,6 +27,8 @@ function init(){
 		}
 		
 	}
+	score=0;
+	updateScore(score);
 }
 function getPosTop(i,j){
 	return 20+i*120;
@@ -133,5 +136,5 @@ function ShowNumberWithAnimation(i,j,randNumber){
 		height:"100px",
 		top:getPosTop(i,j),
 		left:getPosLeft(i,j)
-	},50);
+	},200);
 }

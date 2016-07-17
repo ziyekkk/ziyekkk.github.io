@@ -4,11 +4,6 @@ header{
     width:100%;
     text-align:center;
 }
-header h1{
-    font-family:Arial;
-    font-size:40px;
-    font-weight:bold;
-}
 header #newgamebutton{
     display:block;
     margin:20px auto;
@@ -60,8 +55,51 @@ header p{
 	text-align:center;
 	position:absolute;
 }
+/* gameover */
+.gameover{
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	vertical-align:middle;
+	position:absolute;
+	z-index:99999;
+}
+.gameover p {
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+    margin: 20px auto;
 
+    margin-top: 150px;
+}
 
+.gameover span {
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+    margin: 20px auto;
+}
+
+#restartgamebutton {
+    display: block;
+    margin: 20px auto;
+
+    width: 180px;
+    padding: 10px 10px;
+    background-color: #8f7a66;
+
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+}
+
+#restartgamebutton:hover {
+    background-color: #9f8b77;
+}
 
 
 
