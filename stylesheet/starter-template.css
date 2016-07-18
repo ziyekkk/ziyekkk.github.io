@@ -1,0 +1,15 @@
+body{
+	padding-top:50px;
+	margin-left:15%;
+	margin-right:15%;
+}
+.starter-template{
+	padding:40px 15px;
+	text-align:center;
+}
+.col-sm-4{
+	width:100%;
+}
+.starter-template h1{
+	margin-bottom:50px;
+}
