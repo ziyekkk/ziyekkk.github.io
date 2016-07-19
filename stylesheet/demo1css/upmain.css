@@ -1,0 +1,111 @@
+body{
+	min-width:1250px;
+	background-color:#e4fdfe;
+	border:0px solid #9562a7;
+	margin:0;
+	color:#555;
+	font-size:14px;
+	font-family: 'Avenir Next', 'Lantinghei SC';
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	
+	}
+
+
+a:link {
+        color: black;
+}
+a:visited {
+        color: #fd4c5d;
+}
+a:hover {
+        color: black;
+}
+
+
+
+.main{
+	height:43px;
+	margin:0;
+	min-width:1000px;
+	background-color:#fff;
+	 
+	}
+.logoimage{
+	width:180px;
+	height:40px;
+	margin:0 0 0 110px;
+	float:left;
+	border:0;
+	}
+.search{
+	width: 250px;
+	height:40px;
+	margin:0 0 0 200px;
+	float:left;
+
+	}
+.searchtext{
+	display:block;
+	height:35px;
+	float:left;
+	}
+.searchbutton{
+	width:40px;
+	height:40px;
+	margin-left:5px;
+	background:url("../images/search.png") no-repeat;
+	border:none;
+}
+.user{
+	
+	height:40px;
+	width:100px;
+	float:right;
+	position:relative;
+	margin:0 180px 0 0;
+	padding:0 0 0 0;
+	font-size:20px;
+	background:#fff;
+	}
+.hiddenexit{
+	display:none;
+	
+}
+.hidden li:hover ul{
+	display:block;
+	list-style:none;
+	background:#fff;
+	margin:0;
+	padding:0;
+}
+ 
+.main li{margin:10px 0;}
+.hidden{
+	display:block;
+	 
+	list-style:none;
+	background:#fff;
+	margin:0;
+	padding:0;
+}
+#exit{
+	width:20px;
+	height:20px;
+	border:0;
+	
+	
+}
+.lr{
+	color:black;
+	text-decoration:none;
+}
+.footer{
+	height:200px;
+	margin:0;
+	min-width:1000px;
+	background-color:#fff;
+	float:bottom;
+}
+a{text-decoration:none;}
+div{border:0px solid #fd4c5d;}

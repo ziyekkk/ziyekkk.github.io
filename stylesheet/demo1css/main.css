@@ -1,0 +1,120 @@
+
+#display1{
+	height:350px;
+	margin:0px 0px 10px;
+	text-align:center;
+	 
+	margin-bottom:-40px;
+	text-align:left;
+	background:#5fc5da;
+	z-index:-1;
+	}
+.displayimg{
+	height:400px;
+	width:100%;
+	
+	}
+.display2{
+	height:600px;
+	margin:30px 100px;
+	position:relative;
+	z-index:1;
+	}
+.display2 iframe{
+	height:600px;
+	width:100%;
+	border:0;
+}
+
+.group{
+	height:1000px;
+    margin:10px 100px;
+    background:#f5f5f5;
+    }
+.more{
+	margin-top:-38px;
+	margin-right:10px;
+	float:right;
+	color:#fd4c5d;
+}
+.group1 ,.group3{
+	height:500px;
+	width:66%;
+	float:left;
+	
+	}
+.classic,.onnow{height:240px;}
+.iconimg{
+	width:40px;
+	height:40px;
+	display:block;
+	float:left;
+	margin-top:-15px;
+	margin-right:10px;
+}
+figure{float:left;margin:10px 16px;}
+.displayimg3{width:125px;height:150px;}
+figcaption{
+	margin-top:10px;
+	text-align:center;
+	}
+.moviesort{
+	margin:15px 20px 10px;
+	font-color:#999;
+}
+.moviesort a:link {
+        color: black;
+}
+.moviesort a:visited {
+        color: #777;
+}
+.moviesort a:hover {
+        color: black;
+        
+}
+li a{margin-left:10px;}
+.sortimg{
+	width:60px;
+	height:60px;
+	border:1;
+    border-color: #fd4c5d;
+	margin-bottom:-50px;
+	
+	}
+.sortlike{
+	margin-left:85px;
+	margin-top:15px;
+	margin-bottom:-5px;
+}
+	
+.group2 ,.group4{
+	height:500px;
+	width:28%;
+	float:right;}
+.upcoming,.planning{height:240px;}
+.newstime{
+	float:right;
+	margin:0 40px 0 0;
+}
+span{display:block;margin:20px 0 0 20px;}
+
+ul{display:block;margin:30px 0 0 30px;list-style:none;}
+
+.upcoming li{margin:10px 0;}
+.planning li{margin:10px 0;}
+#rocket{
+	position:fixed;
+	height:64px;
+	width:64px;
+ 	bottom:80px;
+ 	right:10px;
+
+ 
+}
+.footer{height:200px;margin:10px 180px;}
+a{
+	text-decoration:none;
+	
+	}
+
+div{border:0px solid;}
