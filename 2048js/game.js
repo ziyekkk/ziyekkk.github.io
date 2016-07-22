@@ -43,13 +43,15 @@ function moveLeft(){
 						showMoveAnimation(i,j,i,k);
 						board[i][k]=board[i][j];
 						board[i][j]=0;
-					}else if(board[i][k]==board[i][j]&&noBlockHorizontalCol(i, k, j, board)){//2.第一列对应格子不为空且与第一列格子相等，此时得分
+					}else if(board[i][k]==board[i][j]&&noBlockHorizontalCol(i, k, j, board)&&!hasConflicted[i][k]){//2.第一列对应格子不为空且与第一列格子相等，此时得分
 						showMoveAnimation(i,j,i,k);
 						score+=board[i][k];
 						updateScore(score);
 						board[i][k]+=board[i][j];
 						board[i][j]=0;
-						
+						hasConflicted[i][k]=true;
+						continue;
+
 						
 					}
 				}
@@ -73,12 +75,14 @@ function moveRight(){
 						showMoveAnimation(i,j,i,k);
 						board[i][k]=board[i][j];
 						board[i][j]=0;
-					}else if(board[i][k]==board[i][j]&&noBlockHorizontalCol(i, j, k, board)){
+					}else if(board[i][k]==board[i][j]&&noBlockHorizontalCol(i, j, k, board)&&!hasConflicted[i][k]){
 						showMoveAnimation(i,j,i,k);
 						score+=board[i][k];
 						updateScore(score);
 						board[i][k]+=board[i][j];
 						board[i][j]=0;
+						hasConflicted[i][k]=true;
+						continue;
 						
 					}
 				}
@@ -102,12 +106,14 @@ function moveUp(){
 						showMoveAnimation(i,j,k,j);
 						board[k][j]=board[i][j];
 						board[i][j]=0;
-					}else if(board[k][j]==board[i][j]&&noBlockHorizontalColud(j,k,i,board)){
+					}else if(board[k][j]==board[i][j]&&noBlockHorizontalColud(j,k,i,board)&&!hasConflicted[k][j]){
 						showMoveAnimation(i,j,i,k);
 						score+=board[i][k];
 						updateScore(score);
 						board[k][j]+=board[i][j];
 						board[i][j]=0;
+						hasConflicted[k][j]=true;
+						continue;
 						
 					}
 				}
@@ -131,13 +137,14 @@ function moveDown(){
 						showMoveAnimation(i,j,k,j);
 						board[k][j]=board[i][j];
 						board[i][j]=0;
-					}else if(board[k][j]==board[i][j]&&noBlockHorizontalColud(j,k,i,board)){
+					}else if(board[k][j]==board[i][j]&&noBlockHorizontalColud(j,k,i,board)&&!hasConflicted[k][j]){
 						showMoveAnimation(i,j,i,k);
 						score+=board[i][k];
 						updateScore(score);
 						board[k][j]+=board[i][j];
 						board[i][j]=0;
-						
+						hasConflicted[k][j]=true;
+						continue;
 					}
 				}
 			}

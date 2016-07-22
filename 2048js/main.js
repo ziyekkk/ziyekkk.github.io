@@ -11,6 +11,7 @@ function newgame(){
 
 }
 var board=new Array();
+var hasConflicted=new Array();
 var score=0;
 function init(){
 	//i表示4x4的格子中的行
@@ -18,9 +19,10 @@ function init(){
 	{
 		//j表示格子中的列
 		board[i]=new Array();
+		hasConflicted[i]=new Array();
 		for(var j=0;j<4;j++){
 			board[i][j]=0;
-			
+			hasConflicted[i][j] = false;
 			var gridCell=$("#grid-cell-"+i+"-"+j);
 			gridCell.css("top",getPosTop(i,j));
 			gridCell.css("left",getPosLeft(i,j));
@@ -85,6 +87,7 @@ function updateBoardView(){
 				numberCell.css("left",getPosLeft(i,j)+100);
 			}
 			else{
+				hasConflicted[i][j]=false;
 				numberCell.css("width","100px");
 				numberCell.css("height","100px");
 				numberCell.css("top",getPosTop(i,j));
