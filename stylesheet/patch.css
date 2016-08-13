@@ -1,3 +1,21 @@
 .cv{
 	visibility:hidden;
 }
+.music{
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+.musicimg{
+	height:44px;
+	width:77px;
+
+}
+.musicitem{
+	margin-top:3px;
+	margin-left:18px;
+}
+audio{
+	width:48px;
+	height:30px;
+}
