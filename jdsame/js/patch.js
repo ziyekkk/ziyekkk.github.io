@@ -30,7 +30,6 @@ function menuActions(){
 	var menu=document.getElementById("menu");
 	var menuUl=menu.getElementsByTagName("ul")[0];
 	var menuChild=menuUl.childNodes;
-	console.log(menuChild);
 	for(var i=0;i<menuChild.length;i++){
 		if(menuChild[i].tagName=="LI"){
 			var theLiNode=menuChild[i];
