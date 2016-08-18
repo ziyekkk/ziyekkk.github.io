@@ -42,6 +42,7 @@ function menuActions(){
 function setMenuMouseActions(node,node1){
 	node.onmouseover=function(){
 		node1.style.display="block";
+		node1.style.zIndex="100";
 		node.style.backgroundColor="#f7f7f7";
 		node.getElementsByTagName("a")[0].style.color="#c81623";
 	}
