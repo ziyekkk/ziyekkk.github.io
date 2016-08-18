@@ -165,11 +165,13 @@ a:hover{
 	width:100%;
 	min-width:1220px;
 	border-bottom:2px solid #b1191a;
+	
 }
 .content{
 	height:475px;
 	width:1220px;
 	margin:0 auto;
+	position:relative;
 }
 #menu{
 	height:465px;
@@ -200,7 +202,18 @@ a:hover{
 	right:10px;
 	top:8px;
 }
-
+#menuchild{
+	width:1010px;
+	height:464px;
+	background-color:#f7f7f7;
+	border-style:none solid solid none;
+	border-color: #c81623;
+	border-width:1px;
+	
+	position:absolute;
+	top:0;
+	left:210px;
+}
 #carousel{
 	height:455px;
 	width:730px;
@@ -209,23 +222,27 @@ a:hover{
 	margin-left:6px;
 }
 .news{
-	height:165px;
+	height:162px;
 	width:250px;
 	border:1px solid #e4e4e4;
 	float:right;
 	margin-top:10px;
 }
 .items{
-	height:210px;
+	height:209px;
 	width:250px;
 	border:1px solid #e4e4e4;
 	border-top:0px solid;
 	float:right;
 }
 .adimg{
-	height:75px;
+	height:72px;
 	width:250px;
 	border:1px solid #e4e4e4;
 	float:right;
 	margin-top:5px;
+}
+.spacepatch{
+	height:300px;
+	width:100%;
 }
