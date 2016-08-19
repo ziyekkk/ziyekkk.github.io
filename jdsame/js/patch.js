@@ -13,7 +13,7 @@ function assembleMenu(UlParentNode){
 		}
 	}
 }
-function setMouseActions(node,node1){
+function setMouseActions(node){
 	node.onmouseover=function(){
 		this.style.backgroundColor="#f7f7f7";
 		this.getElementsByTagName("a")[0].style.color="#b61d1d";
