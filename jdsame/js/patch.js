@@ -1,7 +1,4 @@
-window.onload=function(){
-	initMenu();
-
-}
+window.onload=initMenu;
 function initMenu(){
 	assembleMenu(document.getElementById("menu"));
 }
