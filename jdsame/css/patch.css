@@ -1,3 +1,7 @@
+*{
+	margin:0;
+	padding:0;
+}
 body,ul{
 	margin:0;
 	padding:0;
@@ -5,6 +9,9 @@ body,ul{
 	color:#666;
 	list-style-type:none;
 	-webkit-font-smoothing:antialiased;
+}
+img{
+	border:0;
 }
 a{
 	text-decoration:none;
@@ -87,8 +94,9 @@ a:hover{
 }
 .search .searchbutton{
 	width:79px;
-	height:32px;
+	height:33px;
 	background-color:#b61d1d;
+	outline:none;
 	color:white;
 	border-style:none;
 }
@@ -204,7 +212,7 @@ a:hover{
 }
 #menuchild{
 	width:1010px;
-	height:464px;
+	height:465px;
 	background-color:#f7f7f7;
 	border-style:none solid solid none;
 	border-color: #c81623;
