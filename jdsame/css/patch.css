@@ -1,8 +1,6 @@
-*{
+body,ul{
 	margin:0;
 	padding:0;
-}
-body,ul{
 	font:12px/150% Arial,Verdana,"\5b8b\4f53";
 	color:#666;
 	list-style-type:none;

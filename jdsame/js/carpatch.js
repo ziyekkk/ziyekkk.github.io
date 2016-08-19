@@ -26,7 +26,7 @@ function carousel(){
 		}
 	}
 
-	var interval=self.setInterval(change,1500);
+	var interval=self.setInterval(change,2000);
 	function change(){
 
 		if(G<L){
