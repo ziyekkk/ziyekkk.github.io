@@ -1,4 +1,4 @@
-window.onload=carousel;
+window.onload=function(){carousel();}
 function carousel(){
 	var car1=document.getElementById("imageul");
 	var car2=document.getElementById("car1");
