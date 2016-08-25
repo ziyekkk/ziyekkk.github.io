@@ -26,13 +26,42 @@ a:hover{
 	background-color:#f1f1f1;
 }
 .adapt{
+	position:relative;
 	width:1220px;
 	height:30px;
 	margin:0 auto;
 }
+.adressul{
+	float:left;
+	width:95px;
+	height:30px;
+}
+.adressul li{
+	position:relative;
+	width:95px;
+	height:31px;
+	border-left:1px solid #f1f1f1;
+	border-right:1px solid #f1f1f1;
+	z-index:100;
+}
 .adress{
 	float:left;
-	padding-left:5px;
+	width:85px;
+	height:30px;
+	line-height:28px;
+	padding-left:10px;
+}
+.alladress{
+	position:absolute;
+	top:30px;
+	left:0;
+	display:none;
+	width:310px;
+	height:245px;
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-top:1px solid #ddd;
+	z-index:10;
 }
 .adress1{
 	margin-right:4px;
@@ -127,6 +156,10 @@ a:hover{
 .cart a{
 	margin-left:35px;
 }
+.cart i{
+	margin-left:20px;
+	font: 400 13px/13px simsun;
+}
 .mainnav{
 	font-size:16px;
 	font-family:"Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
@@ -184,6 +217,7 @@ a:hover{
 	width:210px;
 	background-color:#c81623;
 	float:left;
+	position:relative;
 }
 #menu ul li {
 	color:white;
@@ -208,17 +242,18 @@ a:hover{
 	right:10px;
 	top:8px;
 }
-#menuchild{
+#menuchild li{
 	width:1010px;
 	height:465px;
 	background-color:#f7f7f7;
 	border-style:none solid solid none;
 	border-color: #c81623;
 	border-width:1px;
-	display:none;
 	position:absolute;
+	display:none;
 	top:0;
-	left:210px;
+	left:209px;
+	z-index:100;
 }
 #carousel{
 	height:455px;
@@ -234,6 +269,42 @@ a:hover{
 	float:right;
 	margin-top:10px;
 }
+.news .news-header{
+	height:32px;
+	line-height:32px;
+	border-bottom:1px dotted #e8e8e7;
+}
+h2{
+	font-family:"microsoft yahei";
+    font-weight:400;
+	font-size:16px;
+}
+.news .news-header h2{
+	float:left;
+	margin-left:15px;
+}
+.news .news-content ul{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.news .news-content li{
+	margin-left:15px;
+	height:24px;
+	line-height:24px;
+}
+.news .news-content span{
+	font-weight:700;
+}
+.more{
+	float:right;
+	margin-right:15px;
+}
+.more i{
+	margin-left:8px;
+	font:400 9px/14px consolas;
+	
+}
+
 .items{
 	height:209px;
 	width:250px;
